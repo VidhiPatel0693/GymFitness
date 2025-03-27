@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --main-color:#ff2332;
+    --primary-color:#ff662d;
+    --dark-color:#37383c;
+    --darklight-color:#3a3b3f;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: "Andika", sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  h1,h2,h3,p{
+    margin-bottom: 0 !important;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  /* *************************************************************** */
+  .logo{
+    width:25% ;
+  }
+  .Nav_main{
+    position: relative;
+    z-index: 100;
+    padding: 1rem 0;
+    background:#0c0c0e;
+  }
+
+  .Nav_main a,
+  .nav-link{
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+  }
+  .Nav_main li{
+    padding: 0 0.4rem;
+   }
+  
+   a:hover,
+   a:focus{
+    color: var(--main-color) !important;
+  }
+  .btn1{
+    border: 0;
+    padding: 0.7rem 1.55rem;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    border: 2px solid transparent;
+  }
+  .btn1:hover{
+    background-color: var(--dark-color);
+    transition: 0.1s linear;
+    transform: scale(1.03);
+    border: 2px solid var(--main-color);
+  }
+  .containerfluid ,.Hero{
+    background-image: url("./Assets/back.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* top: 0; */
+    /* padding-top: 10rem; */
+    align-items: center;
+  }
+  
+  .Hero1{
+    background-image: url("./Assets/HomeBack1.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* top: 0; */
+    
+    align-items: center;
+  }
+  .Hero1_col2 img{
+    padding-top: 4rem;
+    padding-left: 0.9rem 6rem;
+    width: 95%;
+  }
+
+  .Hero2{
+    background-image: url("./Assets/HomeBack1.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* top: 0; */
+    padding-top: 3rem;
+    align-items: center;
+  }
+
+  .Hero2_col2 img{
+    padding-top: 2rem;
+    padding-left: 0.9rem 6rem;
+    width: 90%;
+  }
+  
+  span{
+    color: #f83a47;
+  }
+  .Hero_col1{
+    padding-top: 0.000001rem;
+  }
+  .Hero_col1 h1{
+    padding: 2.5rem;
+    font-size: 3.7rem;
+    font-weight: 600;
+    color: white;
+  }
+  .Hero_col1 p{
+    font-size: 1.5rem;
+    padding: 0rem 0;
+    color: white;
+  }
+  .Hero_col2 img{
+    width: 80%;
+    /* padding: 10rem; */
+    padding-top: 10%;
+  }
+
+  .btn0{
+    padding: 0.9rem 1.8rem;
+    font-size: 1.2rem;
+  }
+  .btn0:hover{
+    background-color: var(--dark-color);
+    transition: 0.1s linear;
+    transform: scale(1.03);
+  }
+  .play_btn{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    width: 40%;
+    font-size: 1.2rem;
+   font-weight: 400;
+   padding: 2rem 0;
+  }
+  .play_btn img{
+    width: 50px;
+    padding: 0.5rem 0.5rem 0.5rem 0.6rem ;
+    background: var(--dark-color);
+    border-radius: 100%;
+  }
+  .play_btn img:hover{
+    transition: 0.1s linear;
+    transform: scale(1.03);
+  background: var(--main-color);
+  }
+
+  /* *************************************************************** */
+
+  .Fitness_Goal{
+    background-color: var(--dark-color);
+    color: white;
+    padding: 2rem 0;
+  }
+  .fitness_col1 h1{
+    font-weight:900 ;
+    letter-spacing: 0.3px;
+  }
+  .fitness_col1 p{
+    font-size: 1.5rem;
+    font-weight:500 ;
+    padding-top: 0.2rem;
+  }
+
+  /* *************************************************************** */
+
+  .Fitness_Goal1{
+    background-color: var(--darklight-color);
+    color: white;
+    padding: 2.5rem 0;
+    position: relative;
+  }
+  .fitness_col3 img{
+    border-radius: 10px;
+  }
+  .popup{
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    color: #000;
+    padding: 0.5rem ;
+    width: 16%;
+    border-radius: 15px;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 40%;
+  }
+  .fitness_col4{
+    padding: 1rem 6rem ;
+  }
+  .fitness_col4 p{
+font-size: 1rem;
+padding: 0.8rem 0;
+letter-spacing: 0.2px; 
+  }
+  .main_heading{
+font-size: 2.37rem;
+font-weight: 800;
+color: #fff;
+  }
+
+  /* *************************************************************** */
+
+  .BestOffers{
+background-color: var(--dark-color);
+color: #fff;
+padding: 4rem;
+  }
+  .bestoffer_col1{
+    padding: 1.5rem;
+    background: #605d5d;
+    margin: 0.5rem;
+    border-radius: 15px;
+  }
+  .bestoffer_col1 img{
+  width: 50%;
+  }
+  .bestoffer_col1 p{
+padding: 0.5rem 0 0.9rem 0;
+font-size: 0.95rem;
+  }
+  .bestoffer_col1 button{
+  background-color: transparent;
+  border: 0;
+  color: white;
+  }
+  .bestoffer_col1:hover{
+background-color:#d94813 ;
+transition: 0.3s linear;
+cursor: pointer;
+transform: scale(1.03);
+  }
+  /* *************************************************************** */
+  .services{
+    background-color: var(--darklight-color);
+    color: white;
+    padding: 3rem;
+  }
+  
+  .services_col2 img{
+    width: 100%;
+  }
+  
+  .form-check-input{
+    border-radius: 100% !important;
+    width: 1.3rem;
+    height: 1.3rem;
+    cursor: pointer;
+  }
+  .form-check-input:checked{
+    background-color:var(--primary-color);
+    border-color:var(--primary-color);
+  }
+  .form-check-input:focus{
+    box-shadow: none !important;
+  }
+  /* *************************************************************** */
+ .plan{
+  
+  padding-left: 520px;
+ }
+ .main_para{
+  padding-left: 400px;
+ }
+  .BestPlan{
+  background-color: var(--dark-color);
+    color: white;
+    padding: 3rem;
+ }
+ .bestplan_detail p{
+  padding: 0.5rem;
+ }
+ .bestplan_detail img,h4,h5{
+  padding-right:0.3rem ;
+  font-weight:700;
+  letter-spacing: 0.8px;
+ }
+ .bestplan_col1{
+  padding: 2.5rem 3rem;
+    background: #605d5d;
+    margin: 0.5rem;
+    border-radius: 15px;
+ }
+ .bestplan_col1:hover{
+  transform: scale(1.03);
+  transition: 0.3s linear;
+  cursor: pointer;
+  background-color: #f83a47;
+ }
+ .bestplan_col1 h4{
+font-size: 40x;
+font-weight: 700;
+ }
+ .bestplan_col2 h5{
+  font-size: 40x;
+  font-weight: 700;
+   }
+ .bestplan_col2{
+  background:var(--primary-color);
+  position: relative;
+ }
+ 
+ .bestplan_col1 h1{
+  font-weight: 500;
+  font-size: 3rem;
+ }
+ .bestplan_col1 span{
+ font-size: 1.5rem;
+ font-weight: 300;
+ color: white !important;
+ }
+ 
+ .bestplan_col2 span{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white !important;
+  }
+  
+ .btn3{
+  border: 1px solid #fff ;
+    padding: 0.6rem 3rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 0.4px;
+ }
+ .btn4{
+  /* border: 1px solid #fff ; */
+  border: 0;
+    padding: 0.7rem 3rem;
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 0.4px;
+ }
+ .btn3:hover,
+ .btn4:hover{
+ transform: scale(1.03);
+  transition: 0.3s linear;
+ background-color: var(--dark-color);
+ color: white;
+}
+.btn3:hover{
+ border: 1px solid var(--dark-color);
+ }
+ .BestPlan_h3{
+  position: absolute;
+  font-weight: 600;
+  top: -20px;
+  left: 95px;
+  background: #fff;
+  color: #000;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+ }
+  /* *************************************************************** */
+  .testimonial{
+    background-color: var(--dark-color);
+    color: white;
+  }
+  .testimonial_col2 img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+  .test_main{
+ background: #464646;
+ padding:  1rem 2rem;
+ border-radius: 20px;
+  }
+  .stars i {
+color:#FFD700;
+font-size: 1.3rem;
+padding-right: 0.35rem; 
+  }
+  .stars i:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: 0.3s linear;
+  }
+  .test_p1{
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    font-size: 1rem;
+  }
+  .test_p2{
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+  .test_images img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    margin-left: -0.8rem;
+  }
+  .test_p3{
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    font-size: 1.3rem;
+  }
+  .test_p3 i{
+    color:#FFD700;
+    font-size: 1.3rem;
+    padding-right: 0.6rem; 
+  }
+  
+  /* *************************************************************** */
+  .Footer{
+background-color: var(--dark-color);
+color: white;
+  }
+  .footer_col1 li {
+  padding: 0.7rem 0;
+  }
+  .footer_col1 a{
+    font-size: 18px;
+  }
+  .ft_h5{
+padding-bottom:1.2rem ;
+font-size: 26px;
+  }
+  .footer_col2{
+    font-size: 17px;
+  }
+  .footer_col2 i{
+ font-size: 1.2rem;
+ color: var(--main-color);
+  }
+  .footer_col3{
+    padding: 0 3rem;
+  }
+  .footer_col3 input{
+    /* padding: 0.6rem 1rem; */
+    border-radius: 30px;
+    border: 0;
+
+  }
+  ::placeholder{
+    font-size: 0.9rem ;
+  }
+  .input-group {
+    background: white;
+    padding: 0.3rem 0.9rem 0.3rem 0.3rem;
+    border-radius: 30px;
+   
+  }
+  #button-addon2 {
+    border: 0;
+    background: transparent;
+  }
+  #button-addon2 i{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 100%;
+  }
+  .footer_row1{
+    border-bottom: 1px solid #646464;
+  }
+  .footer_img{
+width: 50%;
+  }
+  .footer_row2 i{
+    font-size: 1.4rem;
+    padding: 0 0.4rem;
+  }
+  .footer_row2 i:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  .footer_row2 span{
+color: white;
+font-weight: 600;
+font-size: 1.3rem;
+  }
+  /* *************************************************************** */
+  /* *************************************************************** */
+  /* *************************************************************** */
